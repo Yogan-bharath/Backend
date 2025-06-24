@@ -1,0 +1,27 @@
+2025:06:17	96a7b29f-eea4-4926-996a-999dd97a3a22	Error: ENOENT: no such file or directory, stat 'C:\Users\BHARATH\OneDrive\Desktop\Backend\routers\text\index.html'
+2025:06:17	23a65471-8662-4b5e-a7b4-c549cdc9369b	Error: ENOENT: no such file or directory, stat 'C:\Users\BHARATH\OneDrive\Desktop\Backend\routers\text\index.html'
+2025:06:17	2245046f-1223-4621-a6c0-b77f8b700adb	TypeError: Cannot read properties of undefined (reading 'user')
+2025:06:17	12bc8dd2-a87e-47be-833e-01ad2d82bed6	TypeError: Cannot read properties of undefined (reading 'user')
+2025:06:17	05a9557c-5063-488a-8c60-c77a87036e15	TypeError: Cannot read properties of undefined (reading 'user')
+2025:06:17	cdd0e6ba-64af-4c7a-8c2d-cb8aa328b6aa	TypeError: Cannot read properties of undefined (reading 'user')
+2025:06:17	052ef880-1436-45ff-a44c-356449b6e9cc	TypeError: Cannot read properties of undefined (reading 'user')
+2025:06:17	67c2c3dc-36c3-4cb2-9cb1-8a4e8dce78ec	TypeError: Cannot read properties of undefined (reading 'user')
+2025:06:17	41abd345-20f2-42a1-9d85-d46c5154d7d3	TypeError: Cannot read properties of undefined (reading 'user')
+2025:06:20	e14109c9-3170-46b0-9e25-213719e5a005	TypeError: Cannot read properties of undefined (reading 'first_name')
+2025:06:20	4c11299c-f5f9-4e06-9186-e9543fab505a	TypeError: Cannot destructure property 'username' of 'req.body' as it is undefined.
+2025:06:20	7b1b4781-ef01-4314-9f75-a94099e3d10d	TypeError: Cannot destructure property 'username' of 'body' as it is undefined.
+2025:06:23	8251b164-ceca-4f2f-8905-d11ed7f740d4	Error: data and hash must be strings
+2025:06:23	1f081918-d342-4690-841b-1b2c6cd0c880	Error: data and hash must be strings
+2025:06:23	4d0218ee-f4a2-4500-b312-0bdc103362db	Error: data and hash must be strings
+2025:06:23	5465d3c5-6f77-40ab-8f3d-f94623ebb7cd	TypeError: Cannot read properties of undefined (reading 'split')
+2025:06:23	844f64a0-446c-4aea-9993-a3d972118390	TypeError: Cannot read properties of undefined (reading 'split')
+2025:06:23	884158e5-a9cd-41a1-bf3f-9978f2d6318c	TypeError: Cannot read properties of undefined (reading 'split')
+2025:06:23	63974fa8-5fe3-43b7-a20d-da0f69fe8ca8	TypeError: Cannot read properties of undefined (reading 'split')
+2025:06:23	b1523017-4810-4bde-bc65-38b29dfef1ab	TypeError: Cannot read properties of undefined (reading 'split')
+2025:06:23	ac54ae5e-0e2a-4b91-810c-230f9005ad6d	ReferenceError: username is not defined
+2025:06:23	03ce4021-bf45-42bb-b9dc-ca43f175f122	ReferenceError: username is not defined
+2025:06:23	25b48ac8-a0f2-4a00-b624-6e5d90f4e48e	ReferenceError: username is not defined
+2025:06:23	32fa063b-0331-4d79-b4fa-3c295c1f927d	Error: Cannot set headers after they are sent to the client
+2025:06:23	a522d24a-d9ee-421f-8ff7-64a8a1fe1862	TypeError: Cannot convert undefined or null to object
+2025:06:23	7ceea9c4-a2eb-4c38-b33f-71f1d5bb46f2	TypeError: Cannot convert undefined or null to object
+2025:06:23	2f63a14b-9023-4800-8992-6009866ea123	TypeError: Cannot read properties of undefined (reading 'username')
