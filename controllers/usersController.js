@@ -43,7 +43,7 @@ const updateUserbyId = async (req,res)=>{
     let user = usersdata.find((user)=>user.id == req.body.id)
     if(!user)
         return res.status(400).json({"message":`Emp id ${req.body.id} not found`})
-    const filterArray = usersdata.filter(user=>user.id!=user.id)
+    const filterArray = usersdata.filter(user=>user.id!=req.body.id)
     const updateduser = {
         ...user,
         'first_name':req.body.first_name,
@@ -66,11 +66,11 @@ const deleteUserbyId = async (req,res)=>{
     let user = usersdata.find(user=>user.id==req.body.id);
     if(!user)
         return res.status(400).json({"message":`Emp id ${req.body.id} not found`})
-    const filterArray = usersdata.filter(user=>user.id!=req.params.id)
+    const filterArray = usersdata.filter(user=>user.id!=req.body.id)
     usersdata = [...filterArray]
     try{
         await fs.writeFile(path.join(__dirname,'..','Data','Users_DATA.json'),JSON.stringify(usersdata));
-        res.status(201).send(`<h1>Deleted the User id ${req.params.id}</h1>`)
+        res.status(201).send(`<h1>Deleted the User id ${req.body.id}</h1>`)
     }
     catch(error){
         console.log(error);

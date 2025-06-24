@@ -46,5 +46,5 @@ app.all(/^\/.*/,(req,res)=>{
 app.use(errorHandler)
 
 app.listen(PORT,()=>{
-    console.log(`Server is running in http://localhost:3000/`);
+    console.log(`Server is running in http://localhost:${PORT}/`);
 })

@@ -25,3 +25,5 @@
 2025:06:23	a522d24a-d9ee-421f-8ff7-64a8a1fe1862	TypeError: Cannot convert undefined or null to object
 2025:06:23	7ceea9c4-a2eb-4c38-b33f-71f1d5bb46f2	TypeError: Cannot convert undefined or null to object
 2025:06:23	2f63a14b-9023-4800-8992-6009866ea123	TypeError: Cannot read properties of undefined (reading 'username')
+2025:06:24	f26403ca-a236-418e-9d9d-907ab1e315e6	Error: Cannot set headers after they are sent to the client
+2025:06:24	55f6dc70-78a7-4104-8ddb-62cb8047009f	TypeError: Cannot convert undefined or null to object

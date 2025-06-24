@@ -4,7 +4,7 @@ require('dotenv').config()
 const verifyJWT = (req,res,next)=>{
     const authHeader = req.headers.authorization
     if(!authHeader)
-        res.sendStatus(401)
+        return res.sendStatus(401)
     const token = authHeader.split(' ')[1]
     jwt.verify(
         token,
@@ -13,9 +13,9 @@ const verifyJWT = (req,res,next)=>{
             if(err) return res.sendStatus(403)
             req.user = decoded.UsersInfo.username
             req.roles = decoded.UsersInfo.roles
-            next()
             } 
     )
+    next()
 }
 
 module.exports = verifyJWT
