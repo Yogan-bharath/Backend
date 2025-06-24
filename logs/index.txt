@@ -218,3 +218,4 @@
 2025:06:24	a4d5929c-e099-4399-ab1f-50d8d2179c8d	/api/users GET undefined
 2025:06:24	bdf7ae0d-e052-4ef1-b0c0-5cfdd6d6c6fb	/api/users DELETE undefined
 2025:06:24	5dea56fb-7b94-41c5-a604-0b99215af875	/api/users GET undefined
+2025:06:24	839b19a6-5cc0-47ae-88dd-fd0d8270a5cf	/login POST undefined
